@@ -20,7 +20,7 @@ public class ComparisonList {
         for (int i = 0; i < arrayList.size(); i++)
             arrayList.get(i);
         long end = System.currentTimeMillis();
-        System.out.println("Time taken for arrayList is " + (start) + " ms");
+        System.out.println("Time taken for arrayList is " + (end - start) + " ms");
 
         start = System.currentTimeMillis();
         for (int i = 0; i < linkedList.size(); i++)
