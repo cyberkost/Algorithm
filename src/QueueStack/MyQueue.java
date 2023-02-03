@@ -1,4 +1,4 @@
-package homework_01_26_2023;
+package QueueStack;
 
 public class MyQueue {
     private int[] arr;      // массив для хранения элементов queue

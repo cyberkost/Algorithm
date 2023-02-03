@@ -1,4 +1,4 @@
-package homework_01_12_2023;
+package DynamicArray;
 
 import java.util.Arrays;
 import java.util.Iterator;

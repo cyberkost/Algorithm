@@ -1,6 +1,4 @@
-package homework_01_26_2023;
-
-import java.util.Stack;
+package QueueStack;
 
 public class MyStack {
 
