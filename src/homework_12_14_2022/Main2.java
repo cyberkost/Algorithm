@@ -15,8 +15,8 @@ import java.util.Arrays;
 public class Main2 {
     public static void main(String[] args) {
 
-        int[] arr1 = new int[]{100, 112, 256, 349, 770};
-        int[] arr2 = new int[]{72, 86, 113, 119, 265, 445, 892};
+        int[] arr1 = {100, 112, 256, 349, 770};
+        int[] arr2 = {72, 86, 113, 119, 265, 445, 892};
         int number = 256;
         int[] result = merge(arr1, arr2);
 

@@ -1,4 +1,4 @@
-package DynamicArray;
+package dynamicArray_1_edition;
 
 import java.util.ArrayList;
 import java.util.Iterator;

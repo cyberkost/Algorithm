@@ -1,4 +1,4 @@
-package QueueStack;
+package queueStack;
 
 public class MyQueue {
     private int[] arr;      // массив для хранения элементов queue

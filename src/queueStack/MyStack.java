@@ -1,4 +1,4 @@
-package QueueStack;
+package queueStack;
 
 public class MyStack {
 
