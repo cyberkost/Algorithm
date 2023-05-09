@@ -56,20 +56,28 @@ public class MyQueue {
     }
 
     public static void main(String[] args) {
-        MyQueue q = new MyQueue(5);
-        System.out.println(q.pushToEnd(1));
-        System.out.println(q.pushToEnd(2));
-        System.out.println(q.pushToEnd(3));
-        System.out.println(q.pushToEnd(4));
-        System.out.println(q.pushToEnd(5));
+        MyQueue q = new MyQueue(4);
+
+        System.out.println("Size: " + q.size());
+
+        System.out.println("Push element to end: " + q.pushToEnd(11));
+        System.out.println("Push element to end: " + q.pushToEnd(29));
+        System.out.println("Push element to end: " + q.pushToEnd(35));
+        System.out.println("Push element to end: " + q.pushToEnd(47));
+        System.out.println("Push element to end: " + q.pushToEnd(15));
+
         System.out.println("Peek: " + q.peek());
 
         System.out.println("Size: " + q.size());
 
         System.out.println("Remove: " + q.remove());
         System.out.println("Remove: " + q.remove());
+        System.out.println("Remove: " + q.remove());
+        System.out.println("Remove: " + q.remove());
 
         System.out.println("Size: " + q.size());
+
+        System.out.println("Is Empty: " + q.isEmpty());
     }
 }
 
